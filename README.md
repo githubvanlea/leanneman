@@ -51,14 +51,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Toegankelijkheidstest 1/2 (week 1)
+## Toegankelijkheidstest 1/2 (week 1) - 12 september
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
 </details>
 
 
