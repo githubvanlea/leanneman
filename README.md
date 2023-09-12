@@ -59,6 +59,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
+  <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
+  <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
+  <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon  </li>
 </details>
 
 
