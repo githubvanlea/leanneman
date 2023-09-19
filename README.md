@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Leanne Man
 
   #### Je startniveau:
-  Blauw 
+  Blauw
 
   #### Je focus:
-  Surface plane (Tot nu toe :))
+  Surface plane (Tot nu toe:))
  
 </details>
 
@@ -36,35 +36,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Ticketmaster 
-  https://www.ticketmaster.nl/
+  Ticketmaster https://www.ticketmaster.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepagina
+  <img src="readme-images/homepagina.jpg" width="375px" alt="de homepagina van Ticketmaster">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  deze is nog te beslissen :)
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
 
 
-## Toegankelijkheidstest 1/2 (week 1) - 12 september
+## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  <ul>
   <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
   <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
   <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
-  <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon  </li>
+  <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon</li>
+  </ul>
 </details>
-
-
 
 ## Breakdownschets (week 1)
 
@@ -72,7 +71,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -83,9 +82,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Voortgang 1 (week 2)
 
 <details>
@@ -94,15 +90,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Dit ging goed:
+  <img src="readme-images/eerstehtml.jpg" width="375px" alt="foto van mijn eerste opzet html">
+  <p> Het opstellen van de HTML toen ik eenmaal begonnen was </p>
+  <img src="readme-images/breakdownschets.jpg" width="375px" alt="foto van breakdownschets">
+  <p> De breakdownschets maken </p>
+  <p> De oefenopdrachtjes (Vooral die van flexbox!!)
+
+  Dit ging lastig:
+  <p> Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat </p>
+  <p> Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin </p>
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Leanne
+  <li> Hoe maak je de afbeelding van het logo ook een hidden H1 in de HTML? </li>
+  <li> Moet er voor de ul een nav ? </li>
+  <li> Bij H2 “Populair” waar doe je de img tag? </li>
+  <li> Hoe schrijf ik een bepaald stukje in HTML van de footer? </li>
+
+  Rosalie
+  Chimène
+  Martin
+  Kim
 
 
   ### Verslag van meeting
