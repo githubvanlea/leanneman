@@ -111,10 +111,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <li> Bij H2 “Populair” waar doe je de img tag? </li>
   <li> Hoe schrijf ik een bepaald stukje in HTML van de footer? </li>
 
-  Rosalie
   Chimène
+  <li> Hoe kan ik knoppen/afbeeldingen juist downloaden van de website? </li>
+  <li> Hoe kan ik de lettertype van mijn website nu in mijn css krijgen? </li>
+  <li> Maakt het uit of je png gebruikt of moet je svg gebruiken? </li>
+  <li> Meerdere links stijlen tegelijk in css. Doe ik nu met classes, maar kan dit ook makkelijker? </li>
+
   Martin
+  <li> Maakt het uit wat voor soort bestand een afbeelding is? (Ex. png svg jpg webp) </li>
+  <li> Hoe hou ik dit icoontje altijd dezelfde plek in het scherm? </li>
+  <li> Hoe zorg ik dat iets verdwijnt als iets scrollt? </li>
+  <li> Welke waarden zijn het handigst om te gebruiken als je alles responsive wil houden? </li>
+
   Kim
+  <li> Hoe maak je een pauze knop voor een carrousel? </li>
+  <li> Hoe maak ik de gekleurde ronde onderkanten bij sections? </li>
+  <li> Hoe loop je een animatie? </li>
+  <li> Waarvoor mocht je nou precies wel een class voor gebruiken? </li>
+
+  Rosalie
 
 
   ### Verslag van meeting
