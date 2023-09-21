@@ -130,6 +130,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <li> Waarvoor mocht je nou precies wel een class voor gebruiken? </li>
 
   Rosalie
+  <li> Hoe laat ik een uitklapmenu groeien? </li>
+  <li> Hoe vergroot ik een image binnen een bepaalde box zonder dat die er buiten komt? </li>
 
 
   ### Verslag van meeting
