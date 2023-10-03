@@ -6,10 +6,6 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-
-
-
-
 ## Jij
 
 <details open>
@@ -25,10 +21,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Surface plane (Tot nu toe:))
  
 </details>
-
-
-
-
 
 ## Je website
 
@@ -47,8 +39,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
-
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
@@ -91,6 +81,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Dit ging goed:
+  <br>
   <img src="readme-images/eerstehtml.jpg" width="375px" alt="foto van mijn eerste opzet html">
   <p> Het opstellen van de HTML toen ik eenmaal begonnen was </p>
   <img src="readme-images/breakdownschets.jpg" width="375px" alt="foto van breakdownschets">
@@ -98,6 +89,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <p> De oefenopdrachtjes (Vooral die van flexbox!!)
 
   Dit ging lastig:
+  <br>
   <p> Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat </p>
   <p> Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin </p>
 
@@ -137,15 +129,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - het hamburgermenu is buiten de nav
+  - bij sections mag een class
+  - section.knoppen ul a { } , bij section.knoppen > a { } alleen directe kinderen
+  - margin: 0; (niet auto;)
+  - <a href=”#” aria-current=”page”>
 
 </details>
-
-
-
 
 
 ## Voortgang 2 (week 3)
@@ -156,16 +146,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  dit ging goed:
+  <img src="readme-images/progress1.jpg" width="375px" alt="foto van hoe mijn website er met alleen de html (en een beetje css) uit ziet">
+  <p> Het opstellen van de HTML </p>
+
+  dit ging lastig:
+  <img src="readme-images/progress2.jpg" width="375px" alt="foto van hoe mijn website er nu uit ziet">
+  <p> Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort </p>
+  <img src="readme-images/progress3.jpg" width="375px" alt="foto van hoe mijn nav eruit ziet">
+  <p> Als ik mijn nav open klap zie ik de a'tjes niet... </p>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Leanne
+  <li> Hoe connect ik mijn tweede CSS bestand juist aan de HTML? </li>
+  <li> Mijn nav werkt niet :( </li>
+  <li> Hoe doe ik ook alweer het juiste lettertype importeren? </li>
 
+  Chimène
+  <li> 
+
+  Martin
+  <li> 
+
+  Kim
+  <li> 
+
+  Rosalie
+  <li> 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -176,9 +185,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - ...
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
