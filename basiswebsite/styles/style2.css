@@ -1,0 +1,19 @@
+/* dit is de css voor de homepagina content */
+
+*, *::after, *::before {
+	box-sizing:border-box;  
+  }
+
+/* CUSTOM PROPERTIES */
+
+:root {
+	--color-background: #f6f6f6;
+	--color-text: #656565;
+	--header-color: #1a50d7;
+	--button-color: #1a50d7;
+	--button-background: #1a50d7;
+	--white: white;
+}
+
+/* DE STYLING */
+
