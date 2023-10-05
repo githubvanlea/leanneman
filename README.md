@@ -175,10 +175,15 @@ Leanne
   <li> Menu knop snap ik niet hoe die werkt </li>
 
   Martin
-  <li> 
+  <li> Hoe krijg ik dit icoon helemaal links </li>
+  <li> Hoe maak ik dit carousel </li>
+  <li> Hoe is dit handig om te maken met grid </li>
+  <li> Moeten alle buttons naar iets leiden? </li>
 
   Kim
-  <li> 
+  <li> Lettertype toepassen werkt niet bij de  H2 (?) </li>
+  <li> Background-size: cover; geeft error aan? </li>
+  <li> Hoe fix ik de nav button </li>
 
   Rosalie
   <li> 
