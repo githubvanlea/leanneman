@@ -159,13 +159,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
+  Ik heb Chimène's site bekeken en zij mijne. Ook heb ik haar Github gecontroleerd en is up to date. 
+  Chimène haar website is goed toegankelijk, alle plaatjes zijn te zien en ze heeft al veel content in haar HTML staan.
+
 Leanne
   <li> Hoe connect ik mijn tweede CSS bestand juist aan de HTML? </li>
   <li> Mijn nav werkt niet :( </li>
   <li> Hoe doe ik ook alweer het juiste lettertype importeren? </li>
+  <li> Hoe verwijder je iets op Github? </li>
 
   Chimène
-  <li> 
+  <li> Hoe krijg ik twee a’tjes naast elkaar als button? </li>
+  <li> Bij een section werkt flex niet </li>
+  <li> Hoe moet ik column toepassen op een bepaalde section? </li>
+  <li> Menu knop snap ik niet hoe die werkt </li>
 
   Martin
   <li> 
