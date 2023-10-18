@@ -1,0 +1,258 @@
+/* dit is de css voor de homepagina content */
+
+*, *::after, *::before {
+	box-sizing:border-box;  
+  }
+
+/* fonts */
+
+@font-face {
+	font-family:'Averta';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/fonts/averta-regular.woff2) format('woff2');
+}
+
+/* CUSTOM PROPERTIES */
+
+:root {
+	--color-background: #f6f6f6;
+	--color-text: #656565;
+	--header-color: #1a50d7;
+	--button-color: #1a50d7;
+	--button-background: #1a50d7;
+	--white: white;
+	--black: black;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+  }
+
+/* DE STYLING */
+/* header */
+
+header {
+	padding:0 1em;
+  	background-color:var(--header-color);
+	display: flex;
+	align-items: center;
+}
+
+header a img {
+	height: 2.5em;
+	width: 10em;
+}
+
+header a {
+	padding:.5em 0;
+  	color:var(--color-background);
+  	text-decoration:none;
+}
+
+header li {
+	list-style-type: none;
+}
+
+header button {
+	appearance:none;
+  	background-color:var(--button-background);
+  	border:none;
+  	border-radius:.25em; 
+  	text-align:center;
+  	color:var(--button-color);
+}
+
+header button img {
+	height: 2em;
+}
+
+
+header > button {
+	order: -1;
+}
+
+nav button {
+	justify-self:start;
+   }
+
+
+/* het menu */
+
+nav {
+	padding:1em;
+  
+  	display:grid;
+ 	align-content:start;
+  	gap:1em;
+  
+  	background-color:var(--color-background);
+
+	position: fixed; 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	translate: -100%;
+	transition: .1s;
+}
+
+nav.open {
+	translate: 0;
+	transition: .5s;
+}
+
+nav ul {
+	margin:0; 
+  	padding:0em;
+  	list-style:none;
+}
+
+nav a {
+	color: var(--color-text);
+	display:flex;
+	align-items:center;
+	column-gap:.25em;
+  }
+
+/* zoekbalk */
+
+header input[type=text] {
+	border-color: var(--white);
+	background-color: var(--header-color);
+	color: var(--white);
+}
+
+header input {
+	background-color: var(--header-color);
+	color: var(--black);
+
+	min-height: 3em;
+	padding: 0 1em;
+	border-color: var(--color-background);
+	border-radius: .5em;
+
+	outline: none;
+	appearance: none;
+}
+
+input::placeholder {
+	color: var(--white);
+	font-family: Montserrat;
+}
+
+input:focus {
+	background-color: var(--color-background);
+	caret-color: var(--black);
+}
+
+input:focus::placeholder {
+	color: var(--color-text);
+}
+
+/* main */
+  /* section met "madison beer" als h2 */
+
+main>section:nth-of-type(1) {
+	height: 15em;
+	background-image: url(../images/madisonbeer.jpg);
+	background-size: 390px 240px;
+	overflow: hidden;
+}
+
+main>section:nth-of-type(1) h2 {
+	color: var(--white);
+	font-family: Averta;
+}
+
+main>section:nth-of-type(1) a {
+	background-color: var(--button-color);
+	padding: 1em;
+	text-decoration: none;
+	color: var(--white); 
+	border-radius: .5em;
+}
+
+/* section met "uitgelicht" als h2 */
+
+main>section:nth-of-type(2) h3 {
+	color: var(--black);
+	font-family: montserrat;
+}
+
+main>section:nth-of-type(2) h4 {
+	color: var(--color-text);
+	font-family: montserrat;
+}
+
+main>section:nth-of-type(2) a {
+	text-decoration: none;
+}
+
+main>section:nth-of-type(2) li {
+	list-style-type: none;
+}
+
+main>section:nth-of-type(2) h2 {
+	display: none;
+}
+
+main>section:nth-of-type(2) img {
+	width: 20em;
+	height: 10em;
+	border-radius: .5em;
+}
+
+/* divider */ 
+
+hr {
+	margin: .5em;
+	color: var(--color-text);
+}
+
+/* section met "recent bekeken" als h2 */
+
+main>section:nth-of-type(3) h2 {
+	margin-top: 1.5em;
+	font-family: Montserrat;
+	color: var(--black);
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline purple;
+}
+
+main>section:nth-of-type(3) li {
+	list-style-type: none;
+}
+
+main>section:nth-of-type(3) a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+/* section met "populair" als h2 */
+
+main>section:nth-of-type(4) h2 {
+	margin-top: 1.5em;
+	font-family: Montserrat;
+	color: var(--black);
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline purple;
+}
+
+main>section:nth-of-type(4) li {
+	list-style-type: none;
+}
+
+main>section:nth-of-type(4) a {
+	text-decoration: none;
+}
+

@@ -1,3 +1,5 @@
+/* de algemene css styling */
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -5,6 +7,26 @@
   box-sizing:border-box;  
 }
 
+/* fonts */
+
+@font-face {
+	font-family:'Averta';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/fonts/averta-regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'AvertaSemiBold';
+	font-style: normal;
+	src: url(fonts/averta-semibold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'AvertaBold';
+	font-style: normal;
+	src: url(fonts/averta-extrabold.woff2) format('woff2');
+}
 
 /* CUSTOM PROPERTIES */
 
@@ -15,154 +37,118 @@
 	--button-color: #1a50d7;
 	--button-background: #1a50d7;
 	--white: white;
+	--black: black;
 }
 
 /* DE STYLING */
 
 body {
+	margin: 0;
 	background-color:var(--color-background);
 	color:var(--color-text);
 }
 
-/* header */
-
-header {
-	padding:0 1em;
-  	background-color:var(--header-color);
-  	line-height:1;
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+footer {
+	background-color: var(--black);
+	color: var(--color-background);
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
-header h1 {
+footer>img:nth-of-type(1) {
+	height: 1.5em;
+	width: 10em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+}
+
+footer>img:nth-of-type(2) {
+	margin-left: 1em;
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+footer>img:nth-of-type(3) {
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+footer>img:nth-of-type(4) {
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+footer>img:nth-of-type(5) {
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+footer>img:nth-of-type(6) {
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+footer>img:nth-of-type(7) {
+	margin-right: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+/* Download onze apps */
+
+footer a img {
+	width: 114px;
+	height: 40px;
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+
+/*  verder */
+
+footer p {
+	padding-left: 1em;
+	font-family: Montserrat;
+}
+
+footer a:nth-of-type(1) {
 	color: var(--white);
-	font-style: italic;
-	font-size: 25px;
+}
+
+footer details {
+	padding-left: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+footer summary {
+	font-family: Montserrat;
 	font-weight: bold;
 }
 
-header a {
-	padding:.5em 0;
-  	color:var(--color-background);
-  	text-decoration:none;
-}
+/* Ons netwerk */
 
-header li {
-	list-style-type: none;
-}
-
-header button {
-	appearance:none;
-  	background-color:var(--button-background);
-  	border:none;
-  	border-radius:.25em; 
-  	text-align:center;
-  	color:var(--button-color);
-}
-
-header button img {
+footer>img:nth-of-type(8) {
+	width: 6.5em;;
 	height: 2em;
+	margin-bottom: 2em;
+}
+
+footer>img:nth-of-type(9) {
+	width: 6.5em;
+	height: 2em;
+	margin-bottom: 2em;
+}
+
+footer p:last-of-type {
+	padding-top: 3em;
 }
 
 
-header > button {
-	order: -1;
-}
 
-nav button {
-	justify-self:start;
-   }
 
-/* het menu */
-
-nav {
-	padding:1em;
-  
-  	display:grid;
- 	align-content:start;
-  	gap:1em;
-  
-  	background-color:var(--color-background);
-
-	position: fixed; 
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
-	translate: -100%;
-	transition: .1s;
-}
-
-nav.open {
-	translate: 0;
-	transition: .5s;
-}
-
-nav ul {
-	margin:0; 
-  	padding:0em;
-  	list-style:none;
-}
-
-nav a {
-	display:flex;
-	align-items:center;
-	column-gap:.25em;
-  }
-
-/* main algemeen */
-
-h2 {
-	color: black;
-}
-
-/* main banner */
-
-main>section:nth-of-type(1) {
-	background-color: red;
-}
-
-main>section:nth-of-type(1) h2 {
-	color: var(--white);
-}
-
-/* main uitgelicht */
-
-main>section:nth-of-type(2) {
-	background-color: blue;
-}
-
-main>section:nth-of-type(2) h2 {
-	display: none;
-}
-
-main>section:nth-of-type(2) img {
-	width: 20em;
-	height: 10em;
-	border-radius: .5em;
-}
-
-/* main recent */
-
-main>section:nth-of-type(3) {
-	background-color: pink;
-}
-
-main>section:nth-of-type(3) h2 {
-	text-transform: uppercase;
-	text-align: center;
-}
-
-/* main populair */
-
-main>section:nth-of-type(4) {
-	background-color: orange;
-}
-
-main>section:nth-of-type(4) h2 {
-	text-transform: uppercase;
-	text-align: center;
-}

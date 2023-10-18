@@ -186,15 +186,15 @@ Leanne
   <li> Hoe fix ik de nav button </li>
 
   Rosalie
-  <li> 
+  <li> Hoe krijg ik mijn tekst over een header </li>
+  <li> Hoe laat ik mijn uitklap menu groeien </li>
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - om de randjes vol te krijgen doe je margin: 0; op de body, niet op de header/section
+  - de nav zag je niet omdat het dezelfde kleur had als de background
+  - font-face en network + cache legen om de fonts op te halen
 
 </details>
 
@@ -221,15 +221,21 @@ Leanne
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  <img src="readme-images/footerprogress.jpg" width="375px" alt="footer gestyled">
+
+  Footer gestyled
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Leanne 
+<li> Het juiste lettertype werkt niet </li>
+<li> Hoe doe je de zoekbalk in de header een rij naar onder </li>
+<li> Hoe zet ik de H2 en A (Tickets) op de goede positie </li>
+<li> Hoe verander ik volgorde van afbeelding + plaatje bij "Uitgelicht". Met flex? </li>
+<li> Hoe voeg ik het paarse lijntje onder "recent bekeken" en "populair" toe? </li>
+<li> Hoe kan ik het beste het zwarte randje in de header maken? met p? <li>
 
 
   ### Verslag van meeting
