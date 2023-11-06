@@ -15,7 +15,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Leanne Man
 
   #### Je startniveau:
-  Blauw
+  Blauw &#128153;
 
   #### Je focus:
   Surface plane (Tot nu toe:))
@@ -28,15 +28,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  Ticketmaster https://www.ticketmaster.nl/
+  Ticketmaster 
+  https://www.ticketmaster.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   homepagina
   <img src="readme-images/homepagina.jpg" width="375px" alt="de homepagina van Ticketmaster">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  deze is nog te beslissen :)
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  muziekpagina
+  <img src="readme-images/muziekpagina.jpg" width= "375px" alt="de muziekpagina van Ticketmaster">
  
 </details>
 
@@ -46,7 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Lijst met bevindingen die in de test naar voren kwamen:
   <ul>
   <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
   <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
@@ -61,13 +62,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschetshomepagina.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschetsmenu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  Niet van toepassing
 
 </details>
 
@@ -80,48 +81,70 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  Dit ging goed:
-  <br>
-  <img src="readme-images/eerstehtml.jpg" width="375px" alt="foto van mijn eerste opzet html">
-  <p> Het opstellen van de HTML toen ik eenmaal begonnen was </p>
-  <img src="readme-images/breakdownschets.jpg" width="375px" alt="foto van breakdownschets">
-  <p> De breakdownschets maken </p>
-  <p> De oefenopdrachtjes (Vooral die van flexbox!!)
+  GOED:
+  <br> <br> 
+  <ul>
+    <li> 
+      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
+      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
+    <li>
+    <li>
+     <b>Het maken van de breakdownschetsen</b>
+      <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
+    </li>
+    <li>
+      <b>De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
+    </li>
+  </ul>
 
-  Dit ging lastig:
-  <br>
-  <p> Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat </p>
-  <p> Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin </p>
+  LASTIG:
+  <br> <br>
+  <ul>
+    <li>
+      <b>Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
+    </li>
+    <li>
+      <b>Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
+    </li>
+  </ul>
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Leanne
+  <b>Leanne</b>
   <li> Hoe maak je de afbeelding van het logo ook een hidden H1 in de HTML? </li>
   <li> Moet er voor de ul een nav ? </li>
   <li> Bij H2 “Populair” waar doe je de img tag? </li>
   <li> Hoe schrijf ik een bepaald stukje in HTML van de footer? </li>
 
-  Chimène
+  <br>
+
+  <b>Chimène</b>
   <li> Hoe kan ik knoppen/afbeeldingen juist downloaden van de website? </li>
   <li> Hoe kan ik de lettertype van mijn website nu in mijn css krijgen? </li>
   <li> Maakt het uit of je png gebruikt of moet je svg gebruiken? </li>
   <li> Meerdere links stijlen tegelijk in css. Doe ik nu met classes, maar kan dit ook makkelijker? </li>
 
-  Martin
+  <br>
+
+  <b>Martin</b>
   <li> Maakt het uit wat voor soort bestand een afbeelding is? (Ex. png svg jpg webp) </li>
   <li> Hoe hou ik dit icoontje altijd dezelfde plek in het scherm? </li>
   <li> Hoe zorg ik dat iets verdwijnt als iets scrollt? </li>
   <li> Welke waarden zijn het handigst om te gebruiken als je alles responsive wil houden? </li>
 
-  Kim
+  <br>
+
+  <b>Kim</b>
   <li> Hoe maak je een pauze knop voor een carrousel? </li>
   <li> Hoe maak ik de gekleurde ronde onderkanten bij sections? </li>
   <li> Hoe loop je een animatie? </li>
   <li> Waarvoor mocht je nou precies wel een class voor gebruiken? </li>
 
-  Rosalie
+  <br>
+
+  <b>Rosalie</b>
   <li> Hoe laat ik een uitklapmenu groeien? </li>
   <li> Hoe vergroot ik een image binnen een bepaalde box zonder dat die er buiten komt? </li>
 
@@ -129,7 +152,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - het hamburgermenu is buiten de nav
+  - het hamburgermenu moet je buiten de nav plaatsen
   - bij sections mag een class
   - section.knoppen ul a { } , bij section.knoppen > a { } alleen directe kinderen
   - margin: 0; (niet auto;)
@@ -146,15 +169,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  dit ging goed:
-  <img src="readme-images/progress1.jpg" width="375px" alt="foto van hoe mijn website er met alleen de html (en een beetje css) uit ziet">
-  <p> Het opstellen van de HTML </p>
+  GOED:
+  <br> <br> 
+  <ul>
+    <li> 
+      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
+      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
+    <li>
+  </ul>
 
-  dit ging lastig:
-  <img src="readme-images/progress2.jpg" width="375px" alt="foto van hoe mijn website er nu uit ziet">
-  <p> Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort </p>
-  <img src="readme-images/progress3.jpg" width="375px" alt="foto van hoe mijn nav eruit ziet">
-  <p> Als ik mijn nav open klap zie ik de a'tjes niet... </p>
+  GOED:
+  <br> <br>
+  <ul>
+    <li> 
+      <b>Het opstellen van de html</b>
+      <img src="readme-images/progress1.jpg" width="200px" alt="foto van hoe mijn website er met alleen de html (en een beetje css) uit ziet">
+    </li>
+  </ul>
+
+  LASTIG:
+  <br> <br>
+  <ul>
+    <li>
+      <b>Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort</b>
+      <img src="readme-images/progress2.jpg" width="200px" alt="foto van hoe mijn website er nu uit ziet">
+    </li>
+    <li>
+      <b>Als ik mijn nav open klap zie ik de a'tjes niet...</b>
+       <img src="readme-images/progress3.jpg" width="200px" alt="foto van hoe mijn nav eruit ziet">
+  </ul>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -162,30 +205,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik heb Chimène's site bekeken en zij mijne. Ook heb ik haar Github gecontroleerd en is up to date. 
   Chimène haar website is goed toegankelijk, alle plaatjes zijn te zien en ze heeft al veel content in haar HTML staan.
 
-Leanne
+  <b>Leanne</b>
   <li> Hoe connect ik mijn tweede CSS bestand juist aan de HTML? </li>
   <li> Mijn nav werkt niet :( </li>
   <li> Hoe doe ik ook alweer het juiste lettertype importeren? </li>
   <li> Hoe verwijder je iets op Github? </li>
 
-  Chimène
+  <br>
+
+  <b>Chimène</b>
   <li> Hoe krijg ik twee a’tjes naast elkaar als button? </li>
   <li> Bij een section werkt flex niet </li>
   <li> Hoe moet ik column toepassen op een bepaalde section? </li>
   <li> Menu knop snap ik niet hoe die werkt </li>
 
-  Martin
+  <br>
+
+  <b>Martin</b>
   <li> Hoe krijg ik dit icoon helemaal links </li>
   <li> Hoe maak ik dit carousel </li>
   <li> Hoe is dit handig om te maken met grid </li>
   <li> Moeten alle buttons naar iets leiden? </li>
 
-  Kim
+  <br>
+
+  <b>Kim</b>
   <li> Lettertype toepassen werkt niet bij de  H2 (?) </li>
   <li> Background-size: cover; geeft error aan? </li>
   <li> Hoe fix ik de nav button </li>
 
-  Rosalie
+  <br>
+
+  <b>Rosalie</b>
   <li> Hoe krijg ik mijn tekst over een header </li>
   <li> Hoe laat ik mijn uitklap menu groeien </li>
 
@@ -221,35 +272,64 @@ Leanne
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  <img src="readme-images/footerprogress.jpg" width="375px" alt="footer gestyled">
-
-  Footer gestyled
-
+  GOED:
+  <br> <br>
+  <ul>
+    <li> 
+      <b>Start aan de footer stylen</b>
+      <img src="readme-images/footerprogress.jpg" width="200px" alt="footer gestyled">
+    </li>
+  </ul>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-Leanne 
-<li> Het juiste lettertype werkt niet </li>
-<li> Hoe doe je de zoekbalk in de header een rij naar onder </li>
-<li> Hoe zet ik de H2 en A (Tickets) op de goede positie </li>
-<li> Hoe verander ik volgorde van afbeelding + plaatje bij "Uitgelicht". Met flex? </li>
-<li> Hoe voeg ik het paarse lijntje onder "recent bekeken" en "populair" toe? </li>
-<li> Hoe kan ik het beste het zwarte randje in de header maken? met p? <li>
+  <b>Leanne</b>
+  <li> Het juiste lettertype werkt niet </li>
+  <li> Hoe doe je de zoekbalk in de header een rij naar onder </li>
+  <li> Hoe zet ik de H2 en A (Tickets) op de goede positie </li>
+  <li> Hoe verander ik volgorde van afbeelding + plaatje bij "Uitgelicht". Met flex? </li>
+  <li> Hoe voeg ik het paarse lijntje onder "recent bekeken" en "populair" toe? </li>
+  <li> Hoe kan ik het beste het zwarte randje in de header maken? met p? <li>
 
+  <br> 
+
+  <b>Chimène</b>
+  <li> meer uitleg over @media Queries </li>
+  <li> wil een border om mijn element, maar ik krijg het niet voor elkaar </li>
+  <li> Jusitify conent lijkt niet te werken </li>
+  <li> Hoe krijg ik een afbeelding links en tekst rechts met flex? </li>
+
+  <br> 
+
+  <b>Martin</b>
+  <li> Hoe zorg ik ervoor dat de nav bar blijft staan </li>
+  <li> Mag ik hier classes gebruiken? </li>
+  <li> Gebruik van pixels </li>
+
+  <br> 
+
+  <b>Kim</b>
+  <li> Hoe fix ik de padding bij de icoontjes in de NAV? </li>
+  <li> Hoe voeg ik een to top button toe </li>
+  <li> Hoe zat het ook en weer met de 2e pagina en de stylesheets? </li>
+  <li> -webkit-background-clip: text; geeft een error, is dat OK? </li>
+  <li> Waar kan ik het beste terecht als ik hierna tegen problemen oploop met Javascript? </li>
+
+  <br>
+
+  <b>Rosalie</b>
+  Die was niet aanwezig.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - de input moet in een formulier met label, button (visually hidden)
+  - px vermijden
+  - background-image: vw;
+  - de zwarte achtergrond header in <p> in header en dan flex gebruiken
 
 </details>
-
-
-
 
 
 ## Eindgesprek (week 5)
