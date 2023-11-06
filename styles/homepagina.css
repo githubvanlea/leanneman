@@ -1,17 +1,8 @@
-/* dit is de css voor de homepagina content */
+/* dit is de css voor de content op de homepagina */
 
 *, *::after, *::before {
 	box-sizing:border-box;  
   }
-
-/* fonts */
-
-@font-face {
-	font-family:'Averta';
-	font-style: normal;
-	font-weight: 400;
-	src: url(/fonts/averta-regular.woff2) format('woff2');
-}
 
 /* CUSTOM PROPERTIES */
 
@@ -22,8 +13,9 @@
 	--header-color: #1a50d7;
 	--button-color: #1a50d7;
 	--button-background: #1a50d7;
-	--white: white;
+	--white: #f6f6f6;
 	--black: black;
+	--ticketmasterpurple: #9b44f6;
 }
 
 .visually-hidden {
@@ -38,7 +30,7 @@
 
 /* DE STYLING */
 
-/* main */
+/* MAIN */
   /* section met "madison beer" als h2 */
 
 main>section:nth-of-type(1) {
@@ -50,6 +42,8 @@ main>section:nth-of-type(1) {
 	flex-direction: column;
 	justify-content: end;
 	align-items: start;
+
+	padding: 1.5em;
 }
 
 
@@ -57,7 +51,6 @@ main>section:nth-of-type(1) h2 {
 	color: var(--white);
 	font-family: Montserrat;
 	font-size: 1.5em;
-	margin-left: 1em;
 }
 
 main>section:nth-of-type(1) a {
@@ -67,16 +60,23 @@ main>section:nth-of-type(1) a {
 	text-decoration: none;
 	color: var(--white); 
 	border-radius: .5em;
-	margin-left: 1.3em;
-	margin-bottom: 1.5em;
 }
 
-/* section met "uitgelicht" als h2 */
+main>section:nth-of-type(1) a:hover {
+	background-color: var(--ticketmasterpurple);
+}
+
+	/* section met "uitgelicht" als h2 */
+
+main>section:nth-of-type(2) {
+	border-bottom: solid;
+}
 
 main>section:nth-of-type(2) h3 {
 	color: var(--black);
 	font-family: montserrat;
 	margin-top: 0;
+	margin-bottom: 1.5em;
 }
 
 main>section:nth-of-type(2) h4 {
@@ -105,14 +105,11 @@ main>section:nth-of-type(2) img {
 	border-radius: .5em;
 }
 
-/* divider */ 
-
-hr {
-	margin: .5em;
-	color: var(--color-text);
+main>section:nth-of-type(2) {
+	border-bottom: 1px solid var(--color-lighter-text);
 }
 
-/* section met "recent bekeken" als h2 */
+	/* section met "recent bekeken" als h2 */
 
 main>section:nth-of-type(3) h2 {
 	margin-top: 1.5em;
@@ -120,23 +117,64 @@ main>section:nth-of-type(3) h2 {
 	color: var(--black);
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 2em;
+}
+
+main>section:nth-of-type(3) h2::after {
+	content:'';
+	height:2px;
+	width:20%;
+	background:#f24432;
+	position:absolute;
+	left:calc(50% - 10%);
+	bottom:-5px;
 }
 
 main>section:nth-of-type(3) li {
 	list-style-type: none;
 }
 
+main>section:nth-of-type(3) ul {
+	display: flex;
+	gap: .5em;
+	margin-bottom: 2em;
+}
+
 main>section:nth-of-type(3) a {
 	text-decoration: none;
 	color: var(--black);
-	width: 100%;
 	border: 0.1em solid var(--color-text);
-	border-radius: 0.5em;
-
+	border-radius: 2em;
+	border-color: var(--color-lighter-text);
+	padding: .5em;
 	display: flex;
+	width: 14em;
 }
 
-/* section met "populair" als h2 */
+main>section:nth-of-type(3) p {
+	font-family: montserrat;
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+
+main>section:nth-of-type(3) img:first-of-type {
+	width: 2em;
+	height: 2em;
+	margin-top: .3em;
+}
+
+main>section:nth-of-type(3) img:nth-of-type(2) {
+	width: 1em;
+	height: 1em;
+	margin-left: 1.5em;
+	margin-top: .8em;
+}
+
+main>section:nth-of-type(3) {
+	border-bottom: 1px solid var(--color-lighter-text);
+}
+
+	/* section met "populair" als h2 */
 
 main>section:nth-of-type(4) h2 {
 	margin-top: 1.5em;
@@ -149,15 +187,22 @@ main>section:nth-of-type(4) h2 {
 main>section:nth-of-type(4) h3 {
 	color: var(--black);
 	font-family: montserrat;
+	margin-top: 0;
+	margin-bottom: 1.5em;
 }
 
 main>section:nth-of-type(4) h4 {
 	color: var(--color-lighter-text);
 	font-family: montserrat;
+	margin-top: 0.8em;
 }
 
 main>section:nth-of-type(4) li {
 	list-style-type: none;
+}
+
+main>section:nth-of-type(3) ul {
+	display: flex;
 }
 
 main>section:nth-of-type(4) a {

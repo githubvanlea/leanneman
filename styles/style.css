@@ -1,31 +1,7 @@
-/* de algemene css styling */
+/* dit is de css voor de algemene styling op elke pagina */
 
-/**************/
-/* CSS REMEDY */
-/**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-/* fonts */
-
-@font-face {
-	font-family:'Averta';
-	font-style: normal;
-	font-weight: 400;
-	src: url(/fonts/averta-regular.woff2) format('woff2');
-}
-
-@font-face {
-	font-family: 'AvertaSemiBold';
-	font-style: normal;
-	src: url(fonts/averta-semibold.woff2) format('woff2');
-}
-
-@font-face {
-	font-family: 'AvertaBold';
-	font-style: normal;
-	src: url(fonts/averta-extrabold.woff2) format('woff2');
+   box-sizing:border-box;  
 }
 
 /* CUSTOM PROPERTIES */
@@ -33,10 +9,11 @@
 :root {
 	--color-background: #f6f6f6;
 	--color-text: #656565;
+	--color-lighter-text: #b4b4b4;
 	--header-color: #1a50d7;
 	--button-color: #1a50d7;
 	--button-background: #1a50d7;
-	--white: white;
+	--white: #f6f6f6;
 	--black: black;
 }
 
@@ -48,7 +25,7 @@ body {
 	color:var(--color-text);
 }
 
-/* header */
+/* HEADER */
 
 header {
 	display: flex;
@@ -147,7 +124,7 @@ nav button {
 	padding: 0.5em;
   }
 
-/* zoekbalk */
+/* de zoekbalk */
 
 header input[type="search"] {
 	display: block;
@@ -172,6 +149,10 @@ header input {
 	width: 100%;
 }
 
+header label {
+	width: 100%;
+}
+
 input::placeholder {
 	color: var(--white);
 	font-family: Montserrat;
@@ -187,7 +168,7 @@ input:focus::placeholder {
 	background-color: var(--white);
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
 	background-color: var(--black);
@@ -283,6 +264,7 @@ footer details {
 	padding-left: 1em;
 	padding-top: .5em;
 	padding-bottom: .5em;
+	border-bottom: 1px solid var(--color-lighter-text);
 }
 
 footer summary {
@@ -292,21 +274,40 @@ footer summary {
 
 /* Ons netwerk */
 
-footer>img:nth-of-type(8) {
+footer>section>img:nth-of-type(1) {
 	width: 6.5em;;
 	height: 2em;
 	margin-bottom: 2em;
 }
 
-footer>img:nth-of-type(9) {
-	width: 6.5em;
+footer>section>img:nth-of-type(2) {
+	width: 6.7em;
 	height: 2em;
 	margin-bottom: 2em;
 }
 
-footer p:last-of-type {
+footer>section p:nth-of-type(1) {
 	padding-top: 3em;
 }
+
+footer>section:nth-of-type(1) {
+	border-bottom: 1px solid var(--color-lighter-text);
+}
+
+/* Cookies & Copyright etc. */
+
+footer>section:nth-of-type(2) p {
+	font-size: .75em;
+	display: flex;
+	justify-content: center;
+}
+
+footer>section:nth-of-type(2) p:nth-of-type(4) {
+	margin-top: 3em;
+}
+
+
+
 
 
 
