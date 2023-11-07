@@ -84,18 +84,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   GOED:
   <br> <br> 
     <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
+    <br>
     <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
   <br> <br> 
      <b>Het maken van de breakdownschetsen</b>
+     <br>
     <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
   <br> <br> 
       <b>De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
 
   LASTIG:
   <br> <br>
-      <b>Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
-  <br> <br>
-      <b>Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
+      <b>- Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
+      <b>- Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
 
 
   ### Agenda voor meeting
