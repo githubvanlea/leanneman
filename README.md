@@ -18,7 +18,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw &#128153;
 
   #### Je focus:
-  Surface plane (Tot nu toe:))
+  Surface plane
  
 </details>
 
