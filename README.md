@@ -255,7 +255,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
       <br>
       <img src="readme-images/footerprogress.jpg" width="200px" alt="footer gestyled">
 
-  Meer procesdocumentatie te zien onderaan in de readme!
+  Meer procesdocumentatie hieronder, maar dit was na de 3e voortgangsgesprek
+
+  <img src="readme-images/progress4.jpg" width= "375px" alt ="procesdocumentatie">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -331,8 +333,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Bronnenlijst
 
 <details open>
@@ -342,8 +342,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hoe de label en input gebruiken: css-tricks.com/html-inputs-and-labels-a-love-story/ (Amber Wilson, 2021)
+  2. Details element: developer.mozilla.org/en-US/docs/Web/HTML/Element/details 
+  3. Foto banner op muziekpagina: www.simkins.com/news/secondary-ticketing-safeguards-imposed-on-ticket-resellers-and-event-organisers 
+  4. Alle foto's zijn van de Ticketmaster site zelf
 
 </details>
