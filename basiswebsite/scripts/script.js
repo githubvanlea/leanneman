@@ -19,3 +19,5 @@ deSluitButton.onclick = sluitMenu;
 function sluitMenu() {
   hetMenu.classList.remove("open");
 }
+
+/* de search bar */

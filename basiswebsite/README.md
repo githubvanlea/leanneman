@@ -32,11 +32,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.ticketmaster.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  homepagina
+  <h1>homepagina</h1>
   <img src="readme-images/homepagina.jpg" width="375px" alt="de homepagina van Ticketmaster">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  muziekpagina
+  <h1>muziekpagina</h1>
   <img src="readme-images/muziekpagina.jpg" width= "375px" alt="de muziekpagina van Ticketmaster">
  
 </details>
@@ -49,10 +49,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met bevindingen die in de test naar voren kwamen:
   <ul>
-  <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
-  <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
-  <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
-  <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon</li>
+    <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
+    <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
+    <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
+    <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon</li>
   </ul>
 </details>
 
@@ -83,30 +83,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   GOED:
   <br> <br> 
-  <ul>
-    <li> 
-      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
-      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
-    <li>
-    <li>
-     <b>Het maken van de breakdownschetsen</b>
-      <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
-    </li>
-    <li>
-      <b>De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
-    </li>
-  </ul>
+    <b>- Het opstellen van de html toen ik eenmaal begonnen was</b>
+    <br>
+    <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
+  <br> <br> 
+     <b>- Het maken van de breakdownschetsen</b>
+     <br>
+    <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
+  <br> <br> 
+      <b>- De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
 
   LASTIG:
   <br> <br>
-  <ul>
-    <li>
-      <b>Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
-    </li>
-    <li>
-      <b>Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
-    </li>
-  </ul>
+      <b>- Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
+      <br>
+      <b>- Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
 
 
   ### Agenda voor meeting
@@ -156,7 +147,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - bij sections mag een class
   - section.knoppen ul a { } , bij section.knoppen > a { } alleen directe kinderen
   - margin: 0; (niet auto;)
-  - <a href=”#” aria-current=”page”>
+  - aria-current=”page” op de huidige pagina
 
 </details>
 
@@ -170,34 +161,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   GOED:
-  <br> <br> 
-  <ul>
-    <li> 
-      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
-      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
-    <li>
-  </ul>
-
-  GOED:
   <br> <br>
-  <ul>
-    <li> 
-      <b>Het opstellen van de html</b>
+      <b>- Het opstellen van de html</b>
+      <br>
       <img src="readme-images/progress1.jpg" width="200px" alt="foto van hoe mijn website er met alleen de html (en een beetje css) uit ziet">
-    </li>
-  </ul>
 
   LASTIG:
   <br> <br>
-  <ul>
-    <li>
-      <b>Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort</b>
+      <b>- Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort</b>
+      <br>
       <img src="readme-images/progress2.jpg" width="200px" alt="foto van hoe mijn website er nu uit ziet">
-    </li>
-    <li>
-      <b>Als ik mijn nav open klap zie ik de a'tjes niet...</b>
+  <br> <br>
+      <b>- Als ik mijn nav open klap zie ik de a'tjes niet...</b>
+      <br>
        <img src="readme-images/progress3.jpg" width="200px" alt="foto van hoe mijn nav eruit ziet">
-  </ul>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -274,12 +251,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   GOED:
   <br> <br>
-  <ul>
-    <li> 
-      <b>Start aan de footer stylen</b>
+      <b>- Start aan de footer stylen</b>
+      <br>
       <img src="readme-images/footerprogress.jpg" width="200px" alt="footer gestyled">
-    </li>
-  </ul>
+
+  Meer procesdocumentatie hieronder, maar dit was na de 3e voortgangsgesprek
+
+  <img src="readme-images/progress4.jpg" width= "375px" alt ="procesdocumentatie">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -327,7 +305,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - de input moet in een formulier met label, button (visually hidden)
   - px vermijden
   - background-image: vw;
-  - de zwarte achtergrond header in <p> in header en dan flex gebruiken
+  - de zwarte achtergrond header in p in header en dan flex gebruiken
 
 </details>
 
@@ -355,8 +333,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Bronnenlijst
 
 <details open>
@@ -366,8 +342,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hoe de label en input gebruiken: css-tricks.com/html-inputs-and-labels-a-love-story/ (Amber Wilson, 2021)
+  2. Details element: developer.mozilla.org/en-US/docs/Web/HTML/Element/details 
+  3. Foto banner op muziekpagina: www.simkins.com/news/secondary-ticketing-safeguards-imposed-on-ticket-resellers-and-event-organisers 
+  4. Alle foto's zijn van de Ticketmaster site zelf
 
 </details>
