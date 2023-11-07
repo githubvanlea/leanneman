@@ -352,7 +352,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Ik vond bepaalde dingen stylen lastig. Ik heb ook wat dingen aan studentassistenten gevraagd maar bij 1/2 dingentjes geen antwoord op gekregen helaas...
 
-  <br> <br>
+  <br>
         <b>- Deze section scrollbaar maken </b>
         <br>
         <img src="readme-images/eindgesprek4.jpg" width="200px" alt="afbeelding van recent bekeken">
