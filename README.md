@@ -83,19 +83,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   GOED:
   <br> <br> 
-    <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
+    <b>- Het opstellen van de html toen ik eenmaal begonnen was</b>
     <br>
     <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
   <br> <br> 
-     <b>Het maken van de breakdownschetsen</b>
+     <b>- Het maken van de breakdownschetsen</b>
      <br>
     <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
   <br> <br> 
-      <b>De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
+      <b>- De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
 
   LASTIG:
   <br> <br>
       <b>- Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
+      <br>
       <b>- Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
 
 
@@ -146,7 +147,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - bij sections mag een class
   - section.knoppen ul a { } , bij section.knoppen > a { } alleen directe kinderen
   - margin: 0; (niet auto;)
-  - <a href=”#” aria-current=”page”>
+  - aria-current=”page” op de huidige pagina
 
 </details>
 
@@ -160,34 +161,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   GOED:
-  <br> <br> 
-  <ul>
-    <li> 
-      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
-      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
-    <li>
-  </ul>
-
-  GOED:
   <br> <br>
-  <ul>
-    <li> 
-      <b>Het opstellen van de html</b>
+      <b>- Het opstellen van de html</b>
+      <br>
       <img src="readme-images/progress1.jpg" width="200px" alt="foto van hoe mijn website er met alleen de html (en een beetje css) uit ziet">
-    </li>
-  </ul>
 
   LASTIG:
   <br> <br>
-  <ul>
-    <li>
-      <b>Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort</b>
+      <b>- Ik raakte in de war van de vele sections die ik had... dus even kleurtjes gegeven om het wat duidelijker te maken voor me wat bij welke section hoort</b>
+      <br>
       <img src="readme-images/progress2.jpg" width="200px" alt="foto van hoe mijn website er nu uit ziet">
-    </li>
-    <li>
-      <b>Als ik mijn nav open klap zie ik de a'tjes niet...</b>
+  <br> <br>
+      <b>- Als ik mijn nav open klap zie ik de a'tjes niet...</b>
+      <br>
        <img src="readme-images/progress3.jpg" width="200px" alt="foto van hoe mijn nav eruit ziet">
-  </ul>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -264,12 +251,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   GOED:
   <br> <br>
-  <ul>
-    <li> 
-      <b>Start aan de footer stylen</b>
+      <b>- Start aan de footer stylen</b>
+      <br>
       <img src="readme-images/footerprogress.jpg" width="200px" alt="footer gestyled">
-    </li>
-  </ul>
+
+  Meer procesdocumentatie te zien onderaan in de readme!
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -317,7 +303,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - de input moet in een formulier met label, button (visually hidden)
   - px vermijden
   - background-image: vw;
-  - de zwarte achtergrond header in <p> in header en dan flex gebruiken
+  - de zwarte achtergrond header in p in header en dan flex gebruiken
 
 </details>
 
