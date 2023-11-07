@@ -354,6 +354,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <br>
         <b>- Deze section scrollbaar maken </b>
+        <p> Maar op de WCAG checklist staat dat horizontaal scrollen niet gebruiksvriendelijk is, dus eigenlijk komt dit goed uit :)</p>
         <br>
         <img src="readme-images/eindgesprek4.jpg" width="200px" alt="afbeelding van recent bekeken">
 </details>
