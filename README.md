@@ -235,9 +235,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  - De screenreader pakt alle kopjes en links 
+  - De screenreader leest ook goed de alt teksten voor; fijn, want bij de ticketmaster site zelf hebben de afbeeldingen geen alt!
+
+  De WCAG checklist: 
+
+  <img src="readme-images/wcagchecklist.jpg" width="375px" alt="de WCAG checklist before en after">
+
 </details>
-
-
 
 
 
@@ -339,6 +344,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
       <b>- Hover state op link </b>
       <br>
       <img src="readme-images/eindgesprek5.jpg" width="200px" alt="afbeelding van de state op de link">
+  <br> <br>
+      <b>- Valideren van de html </b>
+      <br>
+      <img src="readme-images/validatehtml.jpg" width="200px" alt="afbeelding van valideren van de html">
 
   ### Dit was lastig/Is niet gelukt:
   Ik vond bepaalde dingen stylen lastig. Ik heb ook wat dingen aan studentassistenten gevraagd maar bij 1/2 dingentjes geen antwoord op gekregen helaas...
