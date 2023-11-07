@@ -316,22 +316,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat1.jpg" width="375px" alt="uitomst homepagina">
+  <img src="readme-images/eindresultaat2.jpg" width="375px" alt="uitkomst muziekpagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het opstarten van de FED opdracht vond ik erg lastig. Ik had al een jaar niet meer met html, css en javascript gewerkt, maar met behulp van de lessen (en een goed geheugen)is het weer goed gekomen. Ik heb weer de kennis van de basis html en css terug in mijn hoofd gekregen en ook nieuwe dingen toegepast zoals dark mode en states t.o.v. vorig jaar. Ook deed ik actief mee met de opdrachtjes in de les.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <br> <br>
+      <b>- Van scratch beginnen met een website bouwen </b>
+      <br>
+      <img src="readme-images/eindgesprek1.jpg" width="200px" alt="begin tot eind website">
+  <br> <br>
+      <b>- Dark mode toepassen </b>
+      <br>
+       <img src="readme-images/eindgesprek2.jpg" width="200px" alt="afbeelding van light en dark mode">
+  <br> <br>
+      <b>- Focus state op de search bar </b>
+      <br>
+      <img src="readme-images/eindgesprek3.jpg" width="200px" alt="afbeelding van de focus state op de search bar">
+  <br> <br>
+      <b>- Hover state op link </b>
+      <br>
+      <img src="readme-images/eindgesprek5.jpg" width="200px" alt="afbeelding van de state op de link">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond bepaalde dingen stylen lastig. Ik heb ook wat dingen aan studentassistenten gevraagd maar bij 1/2 dingentjes geen antwoord op gekregen helaas...
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <br> <br>
+        <b>- Deze section scrollbaar maken </b>
+        <br>
+        <img src="readme-images/eindgesprek4.jpg" width="200px" alt="afbeelding van recent bekeken">
 </details>
-
-
 
 ## Bronnenlijst
 
