@@ -158,12 +158,12 @@ input::placeholder {
 	font-family: Montserrat;
 }
 
-input:focus {
+header input:focus {
 	background-color: var(--color-background);
 	caret-color: var(--black);
 }
 
-input:focus::placeholder {
+header input:focus::placeholder {
 	color: var(--color-text);
 	background-color: var(--white);
 }
@@ -306,8 +306,31 @@ footer>section:nth-of-type(2) p:nth-of-type(4) {
 	margin-top: 3em;
 }
 
+/* Dark mode */ 
 
+@media (prefers-color-scheme:dark) {
+	:root {
+		--color-background-dark: #272727; 
+		--color-text-dark: #f6f6f6;
+}
 
+body {
+	background-color: var(--color-background-dark);
+}
+
+nav h2 {
+	color: var(--color-text-dark);
+}
+
+nav {
+  	background-color:var(--color-background-dark);
+}
+
+nav a {
+	color: var(--color-text-dark);
+  }
+
+}
 
 
 

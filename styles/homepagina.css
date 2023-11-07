@@ -120,7 +120,7 @@ main>section:nth-of-type(3) h2 {
 	margin-bottom: 2em;
 }
 
-main>section:nth-of-type(3) h2::after {
+/* main>section:nth-of-type(3) h2::after {
 	content:'';
 	height:2px;
 	width:20%;
@@ -128,7 +128,7 @@ main>section:nth-of-type(3) h2::after {
 	position:absolute;
 	left:calc(50% - 10%);
 	bottom:-5px;
-}
+} */
 
 main>section:nth-of-type(3) li {
 	list-style-type: none;
@@ -216,3 +216,55 @@ main>section:nth-of-type(4) img {
 	height: 11em;
 	border-radius: .5em;
 }
+
+/* DARK MODE */ 
+
+@media (prefers-color-scheme:dark) {
+	:root {
+		--color-background-dark: #272727; 
+		--color-text-dark: #f6f6f6;
+		--color-lighter-text-dark: #ebebeb;
+	}
+
+	/* section met "uitgelicht" als h2 */
+
+main>section:nth-of-type(2) h3 { 
+	color: var(--color-text-dark);
+}
+
+main>section:nth-of-type(2) h4 { 
+	color: var(--color-lighter-text-dark);
+}
+
+	/* section met "recent bekeken" als h2 */
+
+main>section:nth-of-type(3) h2 { 
+	color: var(--color-text-dark);
+}
+
+main>section:nth-of-type(3) a {
+	color: var(--white);
+	border: 0.1em solid var(--color-text-dark);
+	border-color: var(--color-lighter-text-dark); 
+}
+
+	/* section met "populair" als h2 */
+
+main>section:nth-of-type(4) h2 {
+	color: var(--color-text-dark);
+}
+
+main>section:nth-of-type(4) h3 {
+	color: var(--color-text-dark);
+}
+
+main>section:nth-of-type(4) h4 { 
+	color: var(--color-lighter-text-dark);
+}
+
+}
+
+
+
+
+
