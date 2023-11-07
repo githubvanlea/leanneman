@@ -32,11 +32,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.ticketmaster.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  homepagina
+  <h1>homepagina</h1>
   <img src="readme-images/homepagina.jpg" width="375px" alt="de homepagina van Ticketmaster">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  muziekpagina
+  <h1>muziekpagina</h1>
   <img src="readme-images/muziekpagina.jpg" width= "375px" alt="de muziekpagina van Ticketmaster">
  
 </details>
@@ -49,10 +49,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met bevindingen die in de test naar voren kwamen:
   <ul>
-  <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
-  <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
-  <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
-  <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon</li>
+    <li>Alle headings op de homepagina worden gevonden door de screenreader</li>
+    <li>Alle links op de homepagina worden ook gevonden door de screenreader</li>
+    <li>Ze zeggen bij de links bij het kopje 'Recent bekeken' "Bezochte link" in plaats van "Link". De screenreader weet dus ook al goed dat de gebruiker deze link heeft bezocht en laat dit weten</li>
+    <li>Alle links in de navigatiebalk header worden gevonden. De afbeelding naast het Paypal icoon</li>
   </ul>
 </details>
 
@@ -83,30 +83,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   GOED:
   <br> <br> 
-  <ul>
-    <li> 
-      <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
-      <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
-    <li>
-    <li>
+    <b>Het opstellen van de html toen ik eenmaal begonnen was</b>
+    <img src="readme-images/eerstehtml.jpg" width="200px" alt="foto van mijn eerste opzet html">
+  <br> <br> 
      <b>Het maken van de breakdownschetsen</b>
-      <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
-    </li>
-    <li>
+    <img src="readme-images/breakdownschets.jpg" width="200px" alt="foto van breakdownschets">
+  <br> <br> 
       <b>De oefenopdrachtjes in de les (Vooral die van flexbox!!)</b>
-    </li>
-  </ul>
 
   LASTIG:
   <br> <br>
-  <ul>
-    <li>
       <b>Uitvinden hoe ik precies alles op Github moet plaatsen en hoe dit up 2 date gaat</b>
-    </li>
-    <li>
+  <br> <br>
       <b>Het opstarten van de html. Ik had dit al een tijdje niet gedaan dus ik liep even vast op het begin</b>
-    </li>
-  </ul>
 
 
   ### Agenda voor meeting
